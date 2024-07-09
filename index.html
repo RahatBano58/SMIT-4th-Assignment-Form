@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <fieldset style="text-align: center;">
+    <ins><h1 align="center">Registration Form</h1></ins>
+    <form name="User Information Form" action="./home.html" onsubmit="">
+    
+    <!--Full Name-->
+    <label for="FullName"><b>Full Name:</b></label>
+    <input required placeholder="Enter Your Full Name" id="Full Name" type="text">
+    <br> <br>
+
+    <!--Email-->
+    <label for="Email"><b>Email:</b></label>
+    <input required placeholder="Enter Your Email" id="Email" type="text">
+    <br><br>
+
+    <!--Password-->
+    <label for="Password" maxlength="8"><b>Password:</b></label>
+    <input required placeholder="Enter Your Password" id="Password" type="password">
+    <br><br>
+
+    <!--Date of Birth-->
+    <label for="DateOfBirth"><b>Date of Birth:</b></label>
+    <input type="date" name="DateOfBirth" id="DateOfBirth">
+    <br><br>
+
+    <!--Age-->
+    <label for="Age"><b>Age:</b></label>
+    <input required placeholder="Enter Your Age" id="Age" type="number">
+    <br><br>
+
+    <!--Phone Number-->
+    <label for="PhoneNumber"><b>Phone Number:</b></label>
+    <input required placeholder="Enter Your Phone Number" id="PhoneNumber" type="number">
+    <br><br>
+
+    <!--Profile Picture-->
+    <label for="image"><b>Profile Picture:</b></label>
+    <input required="image" id="image" type="file">
+    <br><br>
+
+    <!--Gender-->
+    <label for="Gender"><b>Gender:</b></label>
+    <input type="radio" name="Gender">Male
+    <input type="radio" name="Gender">Female
+    <input type="radio" name="Gender">Other
+    <br><br>
+
+    <!--Hobbies-->
+    <label for="Hobbies"><b>Hobbies:</b></label>
+    <input type="radio" name="Hobbies">Reading
+    <input type="radio" name="Hobbies">Traveling
+    <input type="radio" name="Hobbies">Cooking
+    <input type="radio" name="Hobbies">Sports
+    <input type="radio" name="Hobbies">Music
+    <input type="radio" name="Hobbies">Movies
+    <input type="radio" name="Hobbies">Shopping
+    <br><br>
+
+    <!--Country-->
+    <label for="Country"><b>Country</b></label>
+    <select name="Country" id="Country" multiple="multiple" size="1">
+        <option value="Pakistan">Pakistan</option>
+        <option value="Canada">Canada</option>
+        <option value="Dubai">Dubai</option>
+        <option value="Turkey">Turkey</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="Srilanka">Srilanka</option>
+        <option value="Japan">Japan</option>
+        <option value="Afghanistan">Afghanistan</option>
+        <option value="U.S.A">U.S.A</option>
+        <option value="India">India</option>  
+    </select>
+    <br>
+    <!--Bio-->
+    <p><b>Bio:</b></p>
+    <textarea name="Bio" id="Bio"></textarea>
+    <br><br>
+    
+    <!--Submit-->
+    <button type="submit">Submit</button>
+    </form>
+</fieldset>
+</body>
+</html>
